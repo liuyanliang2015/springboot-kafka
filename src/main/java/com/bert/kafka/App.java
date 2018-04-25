@@ -1,12 +1,12 @@
-package com.cloud.kafka;
+package com.bert.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaApp {
+public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaApp.class,args);
+        SpringApplication.run(App.class,args);
     }
 }

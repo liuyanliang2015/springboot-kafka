@@ -1,6 +1,7 @@
-package com.cloud.kafka.config;
+package com.bert.kafka.config;
 
-import com.cloud.kafka.listener.EventMessageListener;
+import com.bert.kafka.listener.EventMessageListener;
+
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * kafka消费者配置.
+ * kafka消费者配置
  **/
 @Configuration
 @EnableKafka
