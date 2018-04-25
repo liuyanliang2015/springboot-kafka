@@ -1,4 +1,4 @@
-package com.cloud.kafka.config;
+package com.bert.kafka.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -13,6 +13,9 @@ import org.springframework.kafka.core.ProducerFactory;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * kafka生产者配置
+ */
 @Configuration
 @EnableKafka
 public class KafkaProducerConfig {
